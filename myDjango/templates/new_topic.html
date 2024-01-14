@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Start a New Topic{% endblock %}
+
+{% block stylesheet %}
+  <link rel="stylesheet" href="{% static 'css/simplemde.min.css' %}">
+{% endblock %}
+
+{% block javascript %}
+  {% if recaptcha_enabled %}
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+     function onSubmit(token) {
+       document.getElementById("newTopicForm").submit();
+     }
+    </script>
+  {% endif %}
+  <script src="{% static 'js/simplemde.min.js' %}"></script>
+  <script>
+    var simplemde = new SimpleMDE();
+  </script>
+{% endblock %}
+
+{% block breadcrumb %}
+  <li class="breadcrumb-item"><a href="{% url 'home' %}">Boards</a></li>
+  <li class="breadcrumb-item"><a href="{% url 'board_topics' board.pk %}">{{ board.name }}</a></li>
+  <li class="breadcrumb-item active">New topic</li>
+{% endblock %}
+
+{% block content %}
+  <form method="post" id="newTopicForm" class="mb-4" novalidate>
+    {% csrf_token %}
+    {% include 'includes/form.html' %}
+    {% if recaptcha_enabled %}
+      <button class="g-recaptcha btn btn-success" data-sitekey="{{ recaptcha_site_key }}" data-callback='onSubmit'>Post</button>
+    {% else %}
+      <button type="submit" class="btn btn-success">Post</button>
+    {% endif %}
+  </form>
+{% endblock %}
