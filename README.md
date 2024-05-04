@@ -1,120 +1,120 @@
-# 文件夹说明
---myDjango     #Django框架学习
---learnRpa     #RPA自动办公
---learnCrawler #爬虫
---leetCode     #leetCode     
---utils        #公共类，配置等
+# 文件夹说明  
+--myDjango     #Django框架学习  
+--learnRpa     #RPA自动办公  
+--learnCrawler #爬虫  
+--leetCode     #leetCode       
+--utils        #公共类，配置等  
 
-### Python基础知识 ###
-# Python3 简介
-Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。
-Python 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。
-Python 是一种解释型语言： 这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。
-Python 是交互式语言： 这意味着，您可以在一个 Python 提示符 >>> 后直接执行代码。
-Python 是面向对象语言: 这意味着Python支持面向对象的风格或代码封装在对象的编程技术。
-Python 是初学者的语言：Python 对初级程序员而言，是一种伟大的语言，它支持广泛的应用程序开发，从简单的文字处理到 WWW 浏览器再到游戏。
+### Python基础知识 ###  
+# Python3 简介  
+Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。  
+Python 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。  
+Python 是一种解释型语言： 这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。  
+Python 是交互式语言： 这意味着，您可以在一个 Python 提示符 >>> 后直接执行代码。  
+Python 是面向对象语言: 这意味着Python支持面向对象的风格或代码封装在对象的编程技术。  
+Python 是初学者的语言：Python 对初级程序员而言，是一种伟大的语言，它支持广泛的应用程序开发，从简单的文字处理到 WWW 浏览器再到游戏。  
 
-# Python 发展历史
-Python 是由 Guido van Rossum 在八十年代末和九十年代初，在荷兰国家数学和计算机科学研究所设计出来的。
-Python 本身也是由诸多其他语言发展而来的,这包括 ABC、Modula-3、C、C++、Algol-68、SmallTalk、Unix shell 和其他的脚本语言等等。
-像 Perl 语言一样，Python 源代码同样遵循 GPL(GNU General Public License)协议。
-现在 Python 是由一个核心开发团队在维护，Guido van Rossum 仍然占据着至关重要的作用，指导其进展。
-Python 2.0 于 2000 年 10 月 16 日发布，增加了实现完整的垃圾回收，并且支持 Unicode。
-Python 3.0 于 2008 年 12 月 3 日发布，此版不完全兼容之前的 Python 源代码。不过，很多新特性后来也被移植到旧的Python 2.6/2.7版本。
-Python 3.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。
-Python 2.7 被确定为最后一个 Python 2.x 版本，它除了支持 Python 2.x 语法外，还支持部分 Python 3.1 语法。
+# Python 发展历史  
+Python 是由 Guido van Rossum 在八十年代末和九十年代初，在荷兰国家数学和计算机科学研究所设计出来的。  
+Python 本身也是由诸多其他语言发展而来的,这包括 ABC、Modula-3、C、C++、Algol-68、SmallTalk、Unix shell 和其他的脚本语言等等。  
+像 Perl 语言一样，Python 源代码同样遵循 GPL(GNU General Public License)协议。  
+现在 Python 是由一个核心开发团队在维护，Guido van Rossum 仍然占据着至关重要的作用，指导其进展。  
+Python 2.0 于 2000 年 10 月 16 日发布，增加了实现完整的垃圾回收，并且支持 Unicode。  
+Python 3.0 于 2008 年 12 月 3 日发布，此版不完全兼容之前的 Python 源代码。不过，很多新特性后来也被移植到旧的Python 2.6/2.7版本。  
+Python 3.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。  
+Python 2.7 被确定为最后一个 Python 2.x 版本，它除了支持 Python 2.x 语法外，还支持部分 Python 3.1 语法。  
 
-# 保留字符
-and	assert break class continue
-def del elif else except exec 
-finally for from global if import
-in is lambda not or pass print
-raise return try while with yield
+# 保留字符  
+and	assert break class continue  
+def del elif else except exec   
+finally for from global if import  
+in is lambda not or pass print  
+raise return try while with yield  
 
-# 运算符
-算术运算符：+，-，*，/，%，**，//
-比较运算符：==，!=，<>，>，<，>=，<=
-赋值运算符：=，+=，-=，*=，/=，%=，**=，//= 
-位运算符：&，|，^，~，<<，>>
-逻辑运算符：and，or，not
-成员运算符：in，not in
-身份运算符：is，is no
+# 运算符  
+算术运算符：+，-，*，/，%，**，//    
+比较运算符：==，!=，<>，>，<，>=，<=    
+赋值运算符：=，+=，-=，*=，/=，%=，**=，//=   
+位运算符：&，|，^，~，<<，>>  
+逻辑运算符：and，or，not  
+成员运算符：in，not in  
+身份运算符：is，is no  
 
-# 命名规范
-模块名写法: module_name
-包名写法: package_name
-类名: ClassName
-方法名: method_name
-异常名: ExceptionName
-函数名: function_name
-全局常量名: GLOBAL_CONSTANT_NAME
-全局变量名: global_var_name
-实例名: instance_var_name
-函数参数名: function_parameter_name
-局部变量名: local_var_name
+# 命名规范  
+模块名写法: module_name  
+包名写法: package_name  
+类名: ClassName  
+方法名: method_name  
+异常名: ExceptionName  
+函数名: function_name  
+全局常量名: GLOBAL_CONSTANT_NAME  
+全局变量名: global_var_name  
+实例名: instance_var_name  
+函数参数名: function_parameter_name  
+局部变量名: local_var_name  
 
-# 七个标准数据类型
-数字（Numbers）：int,float,complex;i=1,f=1.1,c=a+bj
-布尔（Boolean）：True,False;b=False
-字符串（String）：单引号,双引号;str='abc'
-列表[ ]（list）：有序可改变集合,允许重复数据;list=[1,2,3,4]
-元组( )（tuple）：有序不可改变集合,允许重复数据;tup=(1,2,3,4)
-集合{ }（set）：无序无索引（索引为键值）集合,无重复数据;s={'a',"b",1,(1,2),"abc"},s=set();
-              由一个或数个形态各异的大小整体组成,创建一个空集合必须用set()而不是{ },不能往集合里边添加可变数据类型的数据
-字典{ }（dictionary）：无序,可变,有索引集合,无重复数据;dic={'a':12,'b':34}
+# 七个标准数据类型  
+数字（Numbers）：int,float,complex;i=1,f=1.1,c=a+bj  
+布尔（Boolean）：True,False;b=False  
+字符串（String）：单引号,双引号;str='abc'  
+列表[ ]（list）：有序可改变集合,允许重复数据;list=[1,2,3,4]  
+元组( )（tuple）：有序不可改变集合,允许重复数据;tup=(1,2,3,4)  
+集合{ }（set）：无序无索引（索引为键值）集合,无重复数据;s={'a',"b",1,(1,2),"abc"},s=set();  
+              由一个或数个形态各异的大小整体组成,创建一个空集合必须用set()而不是{ },不能往集合里边添加可变数据类型的数据  
+字典{ }（dictionary）：无序,可变,有索引集合,无重复数据;dic={'a':12,'b':34}  
 
-# 类成员可见性
-public：xx
-protected：_xx
-private:__xx
-特列方法: __xx__
+# 类成员可见性  
+public：xx  
+protected：_xx  
+private:__xx  
+特列方法: __xx__  
 
-# 系统变量--在程序运行时自动创建的变量，这些变量的命名与程序本身的变量命名不同，它们也不需要被程序员显式地进行声明
-1. __name__
-__name__是Python中的一个系统变量，它用于判断当前模块是被导入还是直接运行的。如果当前模块是被导入的，则__name__的值为模块名（即文件名），否则__name__的值为'__main__'。
-2. __file__
-__file__是Python中的另一个系统变量，它用于表示当前文件的路径。如果当前文件是被导入的，则__file__的值为被导入文件的路径，否则__file__的值为当前文件的路径。
-3. __doc__
-__doc__是Python中的文档字符串（Docstring），它用于描述模块、函数、类等对象的用途。文档字符串可以通过help()函数进行查看。
-4. __annotations__
-__annotations__是Python中的另一个系统变量，它用于存储变量、函数或类等对象的注解信息。注解信息可以为对象提供额外的元数据。
-5. __builtins__
-__builtins__是Python中的内置模块，它包含了Python中内置的函数、类、变量等内容。内置函数可以在任何Python程序中直接调用，无需进行导入。
-6. __package__
-__package__是Python中的一个系统变量，它用于表示当前模块所在的包。如果当前模块不在任何包中，则__package__的值为None。
-7. __loader__
-__loader__是Python中的另一个系统变量，它用于表示当前模块的加载器。加载器负责加载模块，处理模块的依赖关系等。
-8. __spec__
-__spec__是Python中的另一个系统变量，它用于表示当前模块的规范。规范描述了模块在导入时的行为、依赖关系等信息。
-9. __cached__
-__cached__是Python中的一个系统变量，它用于表示当前模块的缓存路径。如果当前模块在缓存中，则__cached__的值为缓存路径，否则__cached__的值为None。
+# 系统变量--在程序运行时自动创建的变量，这些变量的命名与程序本身的变量命名不同，它们也不需要被程序员显式地进行声明  
+1. __name__  
+__name__是Python中的一个系统变量，它用于判断当前模块是被导入还是直接运行的。如果当前模块是被导入的，则__name__的值为模块名（即文件名），否则__name__的值为'__main__'。  
+2. __file__  
+__file__是Python中的另一个系统变量，它用于表示当前文件的路径。如果当前文件是被导入的，则__file__的值为被导入文件的路径，否则__file__的值为当前文件的路径。  
+3. __doc__  
+__doc__是Python中的文档字符串（Docstring），它用于描述模块、函数、类等对象的用途。文档字符串可以通过help()函数进行查看。  
+4. __annotations__  
+__annotations__是Python中的另一个系统变量，它用于存储变量、函数或类等对象的注解信息。注解信息可以为对象提供额外的元数据。  
+5. __builtins__  
+__builtins__是Python中的内置模块，它包含了Python中内置的函数、类、变量等内容。内置函数可以在任何Python程序中直接调用，无需进行导入。  
+6. __package__  
+__package__是Python中的一个系统变量，它用于表示当前模块所在的包。如果当前模块不在任何包中，则__package__的值为None。  
+7. __loader__  
+__loader__是Python中的另一个系统变量，它用于表示当前模块的加载器。加载器负责加载模块，处理模块的依赖关系等。  
+8. __spec__  
+__spec__是Python中的另一个系统变量，它用于表示当前模块的规范。规范描述了模块在导入时的行为、依赖关系等信息。  
+9. __cached__  
+__cached__是Python中的一个系统变量，它用于表示当前模块的缓存路径。如果当前模块在缓存中，则__cached__的值为缓存路径，否则__cached__的值为None。  
 
-#
-python程序是从上而下逐行运行的，在.py文件中，除了def后定义函数外的代码都会被认为是“main”方法中的内容从上而下执行。
-python没有main()方法。所谓的入口其实也就是个if条件语句，判断成功就执行一些代码，失败就跳过。没有java等其余语言中那样会有特定的内置函数去识别main()方法入口，在main()方法中从上而下执行
-if __name__ == "__main__"的使用场景：测试过程中，为了保证代码正常运行，且这个代码需要被导入到另外一个脚本时，在这种情况下，我们通常不希望该脚本作为主模块运行。这样，就可以在导入和命令行测试情况下会有不同的执行和结果。创建一个库，但希望为用户做一个演示或其他特殊的运行时情况。通过使用这个 if 语句，使用你的代码作为库的 Python 模块就不会受到影响
+#  
+python程序是从上而下逐行运行的，在.py文件中，除了def后定义函数外的代码都会被认为是“main”方法中的内容从上而下执行。    
+python没有main()方法。所谓的入口其实也就是个if条件语句，判断成功就执行一些代码，失败就跳过。没有java等其余语言中那样会有特定的内置函数去识别main()方法入口，在main()方法中从上而下执行    
+if __name__ == "__main__"的使用场景：测试过程中，为了保证代码正常运行，且这个代码需要被导入到另外一个脚本时，在这种情况下，我们通常不希望该脚本作为主模块运行。这样，就可以在导入和命令行测试情况下会有不同的执行和结果。创建一个库，但希望为用户做一个演示或其他特殊的运行时情况。通过使用这个 if 语句，使用你的代码作为库的 Python 模块就不会受到影响    
 
-# 继承的基本语法
-class ClassName(baseclass-list):#ClassName:用于指定类名;baseclass-list:用于指定要继承的基类，多个用逗号“,”隔开,如不指定,将使用所有根类object
-	statement			        #类体
+# 继承的基本语法  
+class ClassName(baseclass-list):#ClassName:用于指定类名;baseclass-list:用于指定要继承的基类，多个用逗号“,”隔开,如不指定,将使用所有根类object  
+	statement			        #类体  
 
-## Python内置函数
-# abs()
---abs(x)--返回数字的绝对值。
-# all()
---all(iterable):--用于判断给定的可迭代参数iterable中的所有元素是否都为TRUE，如果是返回True，否则返回False。元素除了是0、空、None、False外都算True。
-# any()	
---any(iterable)--用于判断给定的可迭代参数iterable是否全部为False，则返回False，如果有一个为True，则返回True。元素除了是0、空、FALSE外都算TRUE。
-# ascii()
---ascii(object)--类似repr()函数, 返回一个表示对象的字符串, 但是对于字符串中的非ASCII字符则返回通过repr()函数使用\x,\u或\U 编码的字符。
-# bin()	
---bin(x)--返回一个整数int或者长整数long int的二进制表示。
-# bool()
---bool([x])--用于将给定参数转换为布尔类型，如果没有参数，返回False。
-# bytearray()
---bytearray([source[, encoding[, errors]]])--返回一个新字节数组。这个数组里的元素是可变的，并且每个元素的值范围: 0<=x<256。
-# bytes()
---bytes([source[, encoding[, errors]]])--返回一个新的 bytes 对象，该对象是一个 0 <= x < 256 区间内的整数不可变序列。它是 bytearray 的不可变版本。
+## Python内置函数  
+# abs()  
+--abs(x)--返回数字的绝对值。  
+# all()  
+--all(iterable):--用于判断给定的可迭代参数iterable中的所有元素是否都为TRUE，如果是返回True，否则返回False。元素除了是0、空、None、False外都算True。  
+# any()	  
+--any(iterable)--用于判断给定的可迭代参数iterable是否全部为False，则返回False，如果有一个为True，则返回True。元素除了是0、空、FALSE外都算TRUE。  
+# ascii()  
+--ascii(object)--类似repr()函数, 返回一个表示对象的字符串, 但是对于字符串中的非ASCII字符则返回通过repr()函数使用\x,\u或\U 编码的字符。  
+# bin()	  
+--bin(x)--返回一个整数int或者长整数long int的二进制表示。  
+# bool()  
+--bool([x])--用于将给定参数转换为布尔类型，如果没有参数，返回False。  
+# bytearray()  
+--bytearray([source[, encoding[, errors]]])--返回一个新字节数组。这个数组里的元素是可变的，并且每个元素的值范围: 0<=x<256。  
+# bytes()  
+--bytes([source[, encoding[, errors]]])--返回一个新的 bytes 对象，该对象是一个 0 <= x < 256 区间内的整数不可变序列。它是 bytearray 的不可变版本。  
 # callable()
 --callable(object)--可调用返回 True，否则返回False。
 # chr()	
@@ -261,13 +261,13 @@ class ClassName(baseclass-list):#ClassName:用于指定类名;baseclass-list:用
 
 ## 其它
 # 切片
-object[start_index : end_index : step] #切片(slice)是对序列型对象(如list, string, tuple)的一种高级索引方法
->>> a = [1,2,[1,2]]
->>> b = a #赋值，指向的同一个内存地址
->>> c = a[:] #浅拷贝，二者是独立的对象，但他们的子对象还是指向统一对象（是引用）
->>> d = copy.copy(a) #浅拷贝，二者是独立的对象，但他们的子对象还是指向统一对象（是引用）
->>> e = copy.deepcopy(a) #深拷贝，是一个新的实体对象
+object[start_index : end_index : step] #切片(slice)是对序列型对象(如list, string, tuple)的一种高级索引方法  
+>>> a = [1,2,[1,2]]  
+>>> b = a #赋值，指向的同一个内存地址  
+>>> c = a[:] #浅拷贝，二者是独立的对象，但他们的子对象还是指向统一对象（是引用）  
+>>> d = copy.copy(a) #浅拷贝，二者是独立的对象，但他们的子对象还是指向统一对象（是引用）  
+>>> e = copy.deepcopy(a) #深拷贝，是一个新的实体对象  
 
 # 垃圾回收
---引用计数：是Python的主要垃圾收集技术。每当Python对象被引用时，例如通过赋值操作，其引用计数就会增加。当对象的引用被删除或对象的作用域被销毁时，其引用计数就会减少。当引用计数达到0时，Python的垃圾收集器就会释放这块内存。
---周期性垃圾收集器：它的工作原理比较复杂，但简单来说，它会定期检查所有的对象，找出那些循环引用的对象，然后删除它们，即使它们的引用计数不为0。这样，Python就能回收循环引用的对象，防止内存泄漏。
+--引用计数：是Python的主要垃圾收集技术。每当Python对象被引用时，例如通过赋值操作，其引用计数就会增加。当对象的引用被删除或对象的作用域被销毁时，其引用计数就会减少。当引用计数达到0时，Python的垃圾收集器就会释放这块内存。  
+--周期性垃圾收集器：它的工作原理比较复杂，但简单来说，它会定期检查所有的对象，找出那些循环引用的对象，然后删除它们，即使它们的引用计数不为0。这样，Python就能回收循环引用的对象，防止内存泄漏。  
